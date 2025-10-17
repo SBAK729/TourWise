@@ -1,0 +1,34 @@
+# FastAPI + Core backend
+fastapi
+uvicorn[standard]
+
+# Database (SQLAlchemy + Postgres)
+SQLAlchemy
+psycopg2-binary
+
+# Auth (JWT + Password Hashing)
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Environment & Validation
+pydantic
+python-dotenv
+uvicorn
+
+
+# Optional: Alembic (for migrations)
+alembic
+
+# AI Tools (for RAG + CrewAI)
+openai
+langchain
+chromadb
+crewai
+tiktoken
+
+# Utilities
+requests
+httpx
+loguru
+
+pydantic[email]
