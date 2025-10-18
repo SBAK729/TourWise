@@ -32,3 +32,6 @@ httpx
 loguru
 
 pydantic[email]
+pinecone
+sentence-transformers
+langchain-text-splitters
