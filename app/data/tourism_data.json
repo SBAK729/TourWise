@@ -1,0 +1,1612 @@
+[
+  {
+    "name": "Unity Park 1",
+    "category": "Attraction",
+    "description": "Cultural and historical park inside the National Palace.",
+    "location": "Addis Ababa",
+    "tags": [
+      "culture",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Hilton Addis Ababa",
+        "avg_cost_per_night_usd": 180
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Kategna Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 150,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Entoto Park 1",
+    "category": "Attraction",
+    "description": "Scenic park with hiking trails and panoramic views.",
+    "location": "Addis Ababa",
+    "tags": [
+      "nature",
+      "outdoor"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Savor Addis",
+        "avg_cost_per_night_usd": 80
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Lucy Lounge and Restaurant",
+        "avg_meal_cost_usd": 14
+      },
+      {
+        "name": "Five Loaves Bistro",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 120,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "National Museum of Ethiopia 1",
+    "category": "Attraction",
+    "description": "Ancient fossils including 'Lucy' and exhibits.",
+    "location": "Addis Ababa",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Golden Tulip Addis Ababa",
+        "avg_cost_per_night_usd": 110
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "2000 Habesha Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 140,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Blue Nile Falls 1",
+    "category": "Attraction",
+    "description": "Spectacular waterfall on Blue Nile River near Bahir Dar.",
+    "location": "Bahir Dar",
+    "tags": [
+      "nature",
+      "waterfall"
+    ],
+    "distance_from_addis_km": 570,
+    "nearby_hotels": [
+      {
+        "name": "Blue Nile Resort Hotel",
+        "avg_cost_per_night_usd": 120
+      },
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Blue Nile Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Local Cafe Bahir Dar",
+        "avg_meal_cost_usd": 8
+      }
+    ],
+    "estimated_total_cost_usd": 200,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Simien Mountains National Park 1",
+    "category": "Attraction",
+    "description": "Dramatic mountain landscapes and endemic wildlife.",
+    "location": "Gondar",
+    "tags": [
+      "nature",
+      "mountain"
+    ],
+    "distance_from_addis_km": 700,
+    "nearby_hotels": [
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      },
+      {
+        "name": "Simien Lodge",
+        "avg_cost_per_night_usd": 90
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Local Gondar Restaurant",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 250,
+    "recommended_duration_days": 2
+  },
+  {
+    "name": "Unity Park 2",
+    "category": "Attraction",
+    "description": "Cultural and historical park inside the National Palace.",
+    "location": "Addis Ababa",
+    "tags": [
+      "culture",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Hilton Addis Ababa",
+        "avg_cost_per_night_usd": 180
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Kategna Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 150,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Entoto Park 2",
+    "category": "Attraction",
+    "description": "Scenic park with hiking trails and panoramic views.",
+    "location": "Addis Ababa",
+    "tags": [
+      "nature",
+      "outdoor"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Savor Addis",
+        "avg_cost_per_night_usd": 80
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Lucy Lounge and Restaurant",
+        "avg_meal_cost_usd": 14
+      },
+      {
+        "name": "Five Loaves Bistro",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 120,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "National Museum of Ethiopia 2",
+    "category": "Attraction",
+    "description": "Ancient fossils including 'Lucy' and exhibits.",
+    "location": "Addis Ababa",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Golden Tulip Addis Ababa",
+        "avg_cost_per_night_usd": 110
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "2000 Habesha Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 140,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Blue Nile Falls 2",
+    "category": "Attraction",
+    "description": "Spectacular waterfall on Blue Nile River near Bahir Dar.",
+    "location": "Bahir Dar",
+    "tags": [
+      "nature",
+      "waterfall"
+    ],
+    "distance_from_addis_km": 570,
+    "nearby_hotels": [
+      {
+        "name": "Blue Nile Resort Hotel",
+        "avg_cost_per_night_usd": 120
+      },
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Blue Nile Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Local Cafe Bahir Dar",
+        "avg_meal_cost_usd": 8
+      }
+    ],
+    "estimated_total_cost_usd": 200,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Simien Mountains National Park 2",
+    "category": "Attraction",
+    "description": "Dramatic mountain landscapes and endemic wildlife.",
+    "location": "Gondar",
+    "tags": [
+      "nature",
+      "mountain"
+    ],
+    "distance_from_addis_km": 700,
+    "nearby_hotels": [
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      },
+      {
+        "name": "Simien Lodge",
+        "avg_cost_per_night_usd": 90
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Local Gondar Restaurant",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 250,
+    "recommended_duration_days": 2
+  },
+  {
+    "name": "Unity Park 3",
+    "category": "Attraction",
+    "description": "Cultural and historical park inside the National Palace.",
+    "location": "Addis Ababa",
+    "tags": [
+      "culture",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Hilton Addis Ababa",
+        "avg_cost_per_night_usd": 180
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Kategna Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 150,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Entoto Park 3",
+    "category": "Attraction",
+    "description": "Scenic park with hiking trails and panoramic views.",
+    "location": "Addis Ababa",
+    "tags": [
+      "nature",
+      "outdoor"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Savor Addis",
+        "avg_cost_per_night_usd": 80
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Lucy Lounge and Restaurant",
+        "avg_meal_cost_usd": 14
+      },
+      {
+        "name": "Five Loaves Bistro",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 120,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "National Museum of Ethiopia 3",
+    "category": "Attraction",
+    "description": "Ancient fossils including 'Lucy' and exhibits.",
+    "location": "Addis Ababa",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Golden Tulip Addis Ababa",
+        "avg_cost_per_night_usd": 110
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "2000 Habesha Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 140,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Blue Nile Falls 3",
+    "category": "Attraction",
+    "description": "Spectacular waterfall on Blue Nile River near Bahir Dar.",
+    "location": "Bahir Dar",
+    "tags": [
+      "nature",
+      "waterfall"
+    ],
+    "distance_from_addis_km": 570,
+    "nearby_hotels": [
+      {
+        "name": "Blue Nile Resort Hotel",
+        "avg_cost_per_night_usd": 120
+      },
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Blue Nile Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Local Cafe Bahir Dar",
+        "avg_meal_cost_usd": 8
+      }
+    ],
+    "estimated_total_cost_usd": 200,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Simien Mountains National Park 3",
+    "category": "Attraction",
+    "description": "Dramatic mountain landscapes and endemic wildlife.",
+    "location": "Gondar",
+    "tags": [
+      "nature",
+      "mountain"
+    ],
+    "distance_from_addis_km": 700,
+    "nearby_hotels": [
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      },
+      {
+        "name": "Simien Lodge",
+        "avg_cost_per_night_usd": 90
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Local Gondar Restaurant",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 250,
+    "recommended_duration_days": 2
+  },
+  {
+    "name": "Unity Park 4",
+    "category": "Attraction",
+    "description": "Cultural and historical park inside the National Palace.",
+    "location": "Addis Ababa",
+    "tags": [
+      "culture",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Hilton Addis Ababa",
+        "avg_cost_per_night_usd": 180
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Kategna Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 150,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Entoto Park 4",
+    "category": "Attraction",
+    "description": "Scenic park with hiking trails and panoramic views.",
+    "location": "Addis Ababa",
+    "tags": [
+      "nature",
+      "outdoor"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Savor Addis",
+        "avg_cost_per_night_usd": 80
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Lucy Lounge and Restaurant",
+        "avg_meal_cost_usd": 14
+      },
+      {
+        "name": "Five Loaves Bistro",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 120,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "National Museum of Ethiopia 4",
+    "category": "Attraction",
+    "description": "Ancient fossils including 'Lucy' and exhibits.",
+    "location": "Addis Ababa",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Golden Tulip Addis Ababa",
+        "avg_cost_per_night_usd": 110
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "2000 Habesha Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 140,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Blue Nile Falls 4",
+    "category": "Attraction",
+    "description": "Spectacular waterfall on Blue Nile River near Bahir Dar.",
+    "location": "Bahir Dar",
+    "tags": [
+      "nature",
+      "waterfall"
+    ],
+    "distance_from_addis_km": 570,
+    "nearby_hotels": [
+      {
+        "name": "Blue Nile Resort Hotel",
+        "avg_cost_per_night_usd": 120
+      },
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Blue Nile Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Local Cafe Bahir Dar",
+        "avg_meal_cost_usd": 8
+      }
+    ],
+    "estimated_total_cost_usd": 200,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Simien Mountains National Park 4",
+    "category": "Attraction",
+    "description": "Dramatic mountain landscapes and endemic wildlife.",
+    "location": "Gondar",
+    "tags": [
+      "nature",
+      "mountain"
+    ],
+    "distance_from_addis_km": 700,
+    "nearby_hotels": [
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      },
+      {
+        "name": "Simien Lodge",
+        "avg_cost_per_night_usd": 90
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Local Gondar Restaurant",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 250,
+    "recommended_duration_days": 2
+  },
+  {
+    "name": "Unity Park 5",
+    "category": "Attraction",
+    "description": "Cultural and historical park inside the National Palace.",
+    "location": "Addis Ababa",
+    "tags": [
+      "culture",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Hilton Addis Ababa",
+        "avg_cost_per_night_usd": 180
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Kategna Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 150,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Entoto Park 5",
+    "category": "Attraction",
+    "description": "Scenic park with hiking trails and panoramic views.",
+    "location": "Addis Ababa",
+    "tags": [
+      "nature",
+      "outdoor"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Savor Addis",
+        "avg_cost_per_night_usd": 80
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Lucy Lounge and Restaurant",
+        "avg_meal_cost_usd": 14
+      },
+      {
+        "name": "Five Loaves Bistro",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 120,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "National Museum of Ethiopia 5",
+    "category": "Attraction",
+    "description": "Ancient fossils including 'Lucy' and exhibits.",
+    "location": "Addis Ababa",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Golden Tulip Addis Ababa",
+        "avg_cost_per_night_usd": 110
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "2000 Habesha Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 140,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Blue Nile Falls 5",
+    "category": "Attraction",
+    "description": "Spectacular waterfall on Blue Nile River near Bahir Dar.",
+    "location": "Bahir Dar",
+    "tags": [
+      "nature",
+      "waterfall"
+    ],
+    "distance_from_addis_km": 570,
+    "nearby_hotels": [
+      {
+        "name": "Blue Nile Resort Hotel",
+        "avg_cost_per_night_usd": 120
+      },
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Blue Nile Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Local Cafe Bahir Dar",
+        "avg_meal_cost_usd": 8
+      }
+    ],
+    "estimated_total_cost_usd": 200,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Simien Mountains National Park 5",
+    "category": "Attraction",
+    "description": "Dramatic mountain landscapes and endemic wildlife.",
+    "location": "Gondar",
+    "tags": [
+      "nature",
+      "mountain"
+    ],
+    "distance_from_addis_km": 700,
+    "nearby_hotels": [
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      },
+      {
+        "name": "Simien Lodge",
+        "avg_cost_per_night_usd": 90
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Local Gondar Restaurant",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 250,
+    "recommended_duration_days": 2
+  },
+  {
+    "name": "Unity Park 6",
+    "category": "Attraction",
+    "description": "Cultural and historical park inside the National Palace.",
+    "location": "Addis Ababa",
+    "tags": [
+      "culture",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Hilton Addis Ababa",
+        "avg_cost_per_night_usd": 180
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Kategna Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 150,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Entoto Park 6",
+    "category": "Attraction",
+    "description": "Scenic park with hiking trails and panoramic views.",
+    "location": "Addis Ababa",
+    "tags": [
+      "nature",
+      "outdoor"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Savor Addis",
+        "avg_cost_per_night_usd": 80
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Lucy Lounge and Restaurant",
+        "avg_meal_cost_usd": 14
+      },
+      {
+        "name": "Five Loaves Bistro",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 120,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "National Museum of Ethiopia 6",
+    "category": "Attraction",
+    "description": "Ancient fossils including 'Lucy' and exhibits.",
+    "location": "Addis Ababa",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Golden Tulip Addis Ababa",
+        "avg_cost_per_night_usd": 110
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "2000 Habesha Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 140,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Blue Nile Falls 6",
+    "category": "Attraction",
+    "description": "Spectacular waterfall on Blue Nile River near Bahir Dar.",
+    "location": "Bahir Dar",
+    "tags": [
+      "nature",
+      "waterfall"
+    ],
+    "distance_from_addis_km": 570,
+    "nearby_hotels": [
+      {
+        "name": "Blue Nile Resort Hotel",
+        "avg_cost_per_night_usd": 120
+      },
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Blue Nile Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Local Cafe Bahir Dar",
+        "avg_meal_cost_usd": 8
+      }
+    ],
+    "estimated_total_cost_usd": 200,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Simien Mountains National Park 6",
+    "category": "Attraction",
+    "description": "Dramatic mountain landscapes and endemic wildlife.",
+    "location": "Gondar",
+    "tags": [
+      "nature",
+      "mountain"
+    ],
+    "distance_from_addis_km": 700,
+    "nearby_hotels": [
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      },
+      {
+        "name": "Simien Lodge",
+        "avg_cost_per_night_usd": 90
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Local Gondar Restaurant",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 250,
+    "recommended_duration_days": 2
+  },
+  {
+    "name": "Unity Park 7",
+    "category": "Attraction",
+    "description": "Cultural and historical park inside the National Palace.",
+    "location": "Addis Ababa",
+    "tags": [
+      "culture",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Hilton Addis Ababa",
+        "avg_cost_per_night_usd": 180
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Kategna Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 150,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Entoto Park 7",
+    "category": "Attraction",
+    "description": "Scenic park with hiking trails and panoramic views.",
+    "location": "Addis Ababa",
+    "tags": [
+      "nature",
+      "outdoor"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Savor Addis",
+        "avg_cost_per_night_usd": 80
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Lucy Lounge and Restaurant",
+        "avg_meal_cost_usd": 14
+      },
+      {
+        "name": "Five Loaves Bistro",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 120,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "National Museum of Ethiopia 7",
+    "category": "Attraction",
+    "description": "Ancient fossils including 'Lucy' and exhibits.",
+    "location": "Addis Ababa",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Golden Tulip Addis Ababa",
+        "avg_cost_per_night_usd": 110
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "2000 Habesha Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 140,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Blue Nile Falls 7",
+    "category": "Attraction",
+    "description": "Spectacular waterfall on Blue Nile River near Bahir Dar.",
+    "location": "Bahir Dar",
+    "tags": [
+      "nature",
+      "waterfall"
+    ],
+    "distance_from_addis_km": 570,
+    "nearby_hotels": [
+      {
+        "name": "Blue Nile Resort Hotel",
+        "avg_cost_per_night_usd": 120
+      },
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Blue Nile Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Local Cafe Bahir Dar",
+        "avg_meal_cost_usd": 8
+      }
+    ],
+    "estimated_total_cost_usd": 200,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Simien Mountains National Park 7",
+    "category": "Attraction",
+    "description": "Dramatic mountain landscapes and endemic wildlife.",
+    "location": "Gondar",
+    "tags": [
+      "nature",
+      "mountain"
+    ],
+    "distance_from_addis_km": 700,
+    "nearby_hotels": [
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      },
+      {
+        "name": "Simien Lodge",
+        "avg_cost_per_night_usd": 90
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Local Gondar Restaurant",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 250,
+    "recommended_duration_days": 2
+  },
+  {
+    "name": "Unity Park 8",
+    "category": "Attraction",
+    "description": "Cultural and historical park inside the National Palace.",
+    "location": "Addis Ababa",
+    "tags": [
+      "culture",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Hilton Addis Ababa",
+        "avg_cost_per_night_usd": 180
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Kategna Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 150,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Entoto Park 8",
+    "category": "Attraction",
+    "description": "Scenic park with hiking trails and panoramic views.",
+    "location": "Addis Ababa",
+    "tags": [
+      "nature",
+      "outdoor"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Savor Addis",
+        "avg_cost_per_night_usd": 80
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Lucy Lounge and Restaurant",
+        "avg_meal_cost_usd": 14
+      },
+      {
+        "name": "Five Loaves Bistro",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 120,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "National Museum of Ethiopia 8",
+    "category": "Attraction",
+    "description": "Ancient fossils including 'Lucy' and exhibits.",
+    "location": "Addis Ababa",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Golden Tulip Addis Ababa",
+        "avg_cost_per_night_usd": 110
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "2000 Habesha Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 140,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Blue Nile Falls 8",
+    "category": "Attraction",
+    "description": "Spectacular waterfall on Blue Nile River near Bahir Dar.",
+    "location": "Bahir Dar",
+    "tags": [
+      "nature",
+      "waterfall"
+    ],
+    "distance_from_addis_km": 570,
+    "nearby_hotels": [
+      {
+        "name": "Blue Nile Resort Hotel",
+        "avg_cost_per_night_usd": 120
+      },
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Blue Nile Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Local Cafe Bahir Dar",
+        "avg_meal_cost_usd": 8
+      }
+    ],
+    "estimated_total_cost_usd": 200,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Simien Mountains National Park 8",
+    "category": "Attraction",
+    "description": "Dramatic mountain landscapes and endemic wildlife.",
+    "location": "Gondar",
+    "tags": [
+      "nature",
+      "mountain"
+    ],
+    "distance_from_addis_km": 700,
+    "nearby_hotels": [
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      },
+      {
+        "name": "Simien Lodge",
+        "avg_cost_per_night_usd": 90
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Local Gondar Restaurant",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 250,
+    "recommended_duration_days": 2
+  },
+  {
+    "name": "Unity Park 9",
+    "category": "Attraction",
+    "description": "Cultural and historical park inside the National Palace.",
+    "location": "Addis Ababa",
+    "tags": [
+      "culture",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Hilton Addis Ababa",
+        "avg_cost_per_night_usd": 180
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Kategna Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 150,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Entoto Park 9",
+    "category": "Attraction",
+    "description": "Scenic park with hiking trails and panoramic views.",
+    "location": "Addis Ababa",
+    "tags": [
+      "nature",
+      "outdoor"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Savor Addis",
+        "avg_cost_per_night_usd": 80
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Lucy Lounge and Restaurant",
+        "avg_meal_cost_usd": 14
+      },
+      {
+        "name": "Five Loaves Bistro",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 120,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "National Museum of Ethiopia 9",
+    "category": "Attraction",
+    "description": "Ancient fossils including 'Lucy' and exhibits.",
+    "location": "Addis Ababa",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Golden Tulip Addis Ababa",
+        "avg_cost_per_night_usd": 110
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "2000 Habesha Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 140,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Blue Nile Falls 9",
+    "category": "Attraction",
+    "description": "Spectacular waterfall on Blue Nile River near Bahir Dar.",
+    "location": "Bahir Dar",
+    "tags": [
+      "nature",
+      "waterfall"
+    ],
+    "distance_from_addis_km": 570,
+    "nearby_hotels": [
+      {
+        "name": "Blue Nile Resort Hotel",
+        "avg_cost_per_night_usd": 120
+      },
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Blue Nile Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Local Cafe Bahir Dar",
+        "avg_meal_cost_usd": 8
+      }
+    ],
+    "estimated_total_cost_usd": 200,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Simien Mountains National Park 9",
+    "category": "Attraction",
+    "description": "Dramatic mountain landscapes and endemic wildlife.",
+    "location": "Gondar",
+    "tags": [
+      "nature",
+      "mountain"
+    ],
+    "distance_from_addis_km": 700,
+    "nearby_hotels": [
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      },
+      {
+        "name": "Simien Lodge",
+        "avg_cost_per_night_usd": 90
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Local Gondar Restaurant",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 250,
+    "recommended_duration_days": 2
+  },
+  {
+    "name": "Unity Park 10",
+    "category": "Attraction",
+    "description": "Cultural and historical park inside the National Palace.",
+    "location": "Addis Ababa",
+    "tags": [
+      "culture",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Hilton Addis Ababa",
+        "avg_cost_per_night_usd": 180
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Kategna Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 150,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Entoto Park 10",
+    "category": "Attraction",
+    "description": "Scenic park with hiking trails and panoramic views.",
+    "location": "Addis Ababa",
+    "tags": [
+      "nature",
+      "outdoor"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Savor Addis",
+        "avg_cost_per_night_usd": 80
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Lucy Lounge and Restaurant",
+        "avg_meal_cost_usd": 14
+      },
+      {
+        "name": "Five Loaves Bistro",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 120,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "National Museum of Ethiopia 10",
+    "category": "Attraction",
+    "description": "Ancient fossils including 'Lucy' and exhibits.",
+    "location": "Addis Ababa",
+    "tags": [
+      "museum",
+      "history"
+    ],
+    "distance_from_addis_km": 0,
+    "nearby_hotels": [
+      {
+        "name": "Hyatt Regency Addis Ababa",
+        "avg_cost_per_night_usd": 200
+      },
+      {
+        "name": "Golden Tulip Addis Ababa",
+        "avg_cost_per_night_usd": 110
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Yod Abyssinia Cultural Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "2000 Habesha Restaurant",
+        "avg_meal_cost_usd": 12
+      }
+    ],
+    "estimated_total_cost_usd": 140,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Blue Nile Falls 10",
+    "category": "Attraction",
+    "description": "Spectacular waterfall on Blue Nile River near Bahir Dar.",
+    "location": "Bahir Dar",
+    "tags": [
+      "nature",
+      "waterfall"
+    ],
+    "distance_from_addis_km": 570,
+    "nearby_hotels": [
+      {
+        "name": "Blue Nile Resort Hotel",
+        "avg_cost_per_night_usd": 120
+      },
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Blue Nile Restaurant",
+        "avg_meal_cost_usd": 15
+      },
+      {
+        "name": "Local Cafe Bahir Dar",
+        "avg_meal_cost_usd": 8
+      }
+    ],
+    "estimated_total_cost_usd": 200,
+    "recommended_duration_days": 1
+  },
+  {
+    "name": "Simien Mountains National Park 10",
+    "category": "Attraction",
+    "description": "Dramatic mountain landscapes and endemic wildlife.",
+    "location": "Gondar",
+    "tags": [
+      "nature",
+      "mountain"
+    ],
+    "distance_from_addis_km": 700,
+    "nearby_hotels": [
+      {
+        "name": "Goha Hotel",
+        "avg_cost_per_night_usd": 100
+      },
+      {
+        "name": "Simien Lodge",
+        "avg_cost_per_night_usd": 90
+      }
+    ],
+    "nearby_restaurants": [
+      {
+        "name": "Local Gondar Restaurant",
+        "avg_meal_cost_usd": 10
+      }
+    ],
+    "estimated_total_cost_usd": 250,
+    "recommended_duration_days": 2
+  }
+]
