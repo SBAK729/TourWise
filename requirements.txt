@@ -35,3 +35,7 @@ pydantic[email]
 pinecone
 sentence-transformers
 langchain-text-splitters
+
+langgraph
+langchain-groq
+googlesearch-python
