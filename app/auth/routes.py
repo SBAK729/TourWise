@@ -1,7 +1,12 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Body
 from sqlalchemy.orm import Session
 from app.core.database import SessionLocal
 from app.auth import models, schemas, utils
+from app.agents.state import AssistantState
+from app.agents.graph_langgraph import run_travel_graph
+from app.agents.base import make_groq_llm
+import json
+from fastapi.encoders import jsonable_encoder
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
@@ -36,3 +41,67 @@ def login(payload: schemas.UserCreate, db: Session = Depends(get_db)):
 @router.get("/me")
 def me(current_user = Depends(utils.get_current_user)):
     return {"id": current_user.id, "email": current_user.email, "created_at": current_user.created_at}
+
+
+@router.post("/generate-itinerary")
+async def generate_itinerary(request_data: schemas.Query):
+    user_id = request_data.user_id
+    user_input = request_data.user_input
+    print("User:", user_id, "Query:", user_input)
+
+    extractor_prompt = f"""
+    You are an intent extraction model. Analyze the user's travel request and return structured JSON.
+    Example output:
+    {{
+      "destination": "Paris",
+      "duration_days": 5,
+      "budget_usd": 1500,
+      "travel_dates": {{"start": "2025-04-10", "end": "2025-04-15"}},
+      "preferences": {{"interests": ["museums", "food", "local culture"]}}
+    }}
+    User query: "{user_input}"
+    Respond with JSON only.
+    """
+
+    llm = make_groq_llm(model="llama-3.3-70b-versatile", temperature=0.2)
+    response = llm.invoke(extractor_prompt)
+    raw_output = getattr(response, "content", str(response))
+
+    import re, json
+    json_match = re.search(r'\{.*\}', raw_output, re.DOTALL)
+    if not json_match:
+        raise HTTPException(status_code=500, detail=f"LLM did not return valid JSON: {raw_output}")
+
+    try:
+        parsed = json.loads(json_match.group())
+    except json.JSONDecodeError as e:
+        raise HTTPException(status_code=500, detail=f"JSON parsing error: {e.msg}, raw: {raw_output}")
+
+    state: AssistantState = {
+        "user_id": user_id,
+        "query": user_input,
+        "preferences": parsed.get("preferences", {}),
+        "travel_dates": parsed.get("travel_dates", {}),
+        "budget": parsed.get("budget_usd"),
+        "generated_content": {},
+        "logs": [{"step": "intent_extraction", "parsed": parsed}],
+    }
+
+
+    itinerary_result = run_travel_graph(state)
+
+    from fastapi.encoders import jsonable_encoder
+    safe_result = jsonable_encoder(itinerary_result)
+    result = {
+        "generated_content":safe_result["generated_content"]["final_itinerary"],
+        "language_annotations":safe_result["generated_content"]["language_annotations"],
+        "savings_options":safe_result["generated_content"]["savings_options"],
+        "estimated_total_cost_usd":safe_result["generated_content"]["estimated_total_cost_usd"],
+        "breakdown":safe_result["generated_content"]["breakdown"],
+    }
+
+    return {
+        "user_id": user_id,
+        "query": user_input,
+        "result": result,
+    }
