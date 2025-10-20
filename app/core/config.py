@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
     pinecone_api_key: str
     GROQ_API_KEY: str
+    MODEL: str
 
     class Config:
         env_file = ".env"

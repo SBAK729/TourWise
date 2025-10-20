@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-GROQ_MODEL ="llama-3.3-70b-versatile"
+GROQ_MODEL =os.getenv("MODEL")
 DEFAULT_TEMPERATURE = float(0.15)
 DEFAULT_MAX_TOKENS = int(512)
 

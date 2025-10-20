@@ -63,7 +63,7 @@ async def generate_itinerary(request_data: schemas.Query):
     Respond with JSON only.
     """
 
-    llm = make_groq_llm(model="llama-3.3-70b-versatile", temperature=0.2)
+    llm = make_groq_llm()
     response = llm.invoke(extractor_prompt)
     raw_output = getattr(response, "content", str(response))
 
@@ -93,15 +93,18 @@ async def generate_itinerary(request_data: schemas.Query):
     from fastapi.encoders import jsonable_encoder
     safe_result = jsonable_encoder(itinerary_result)
     result = {
-        "generated_content":safe_result["generated_content"]["final_itinerary"],
+        "generated_content":safe_result["generated_content"]["revised_itinerary"],
         "language_annotations":safe_result["generated_content"]["language_annotations"],
         "savings_options":safe_result["generated_content"]["savings_options"],
         "estimated_total_cost_usd":safe_result["generated_content"]["estimated_total_cost_usd"],
         "breakdown":safe_result["generated_content"]["breakdown"],
     }
 
+    # print(safe_result)
+
     return {
         "user_id": user_id,
         "query": user_input,
-        "result": result,
+        "user_intent":parsed,
+        "result":result,
     }

@@ -44,7 +44,7 @@ def node_coordinator_agent(state: AssistantState) -> dict:
 
     # --- LLM call for final coordination ---
     prompt = f"{PROMPT_COORDINATOR}\n\n### Input:\n{json.dumps(llm_input, indent=2)}"
-    llm = make_groq_llm(model="llama-3.3-70b-versatile", temperature=0.2)
+    llm = make_groq_llm()
     response = llm.invoke(prompt)
 
     try:
