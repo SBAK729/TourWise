@@ -7,18 +7,19 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="TourismSense - Auth Demo")
 
-# ✅ Allow your frontend origin
+
 origins = [
-    "http://localhost:3000",  # your Next.js dev server
-    "http://127.0.0.1:3000",  # optional, sometimes Next uses 127.0.0.1
+    "http://localhost:3000",  
+    "http://127.0.0.1:3000", 
+    "https://tourwise-ui.vercel.app/", 
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,          # specific origins only
+    allow_origins=origins,          
     allow_credentials=True,
-    allow_methods=["*"],            # allow POST, GET, OPTIONS, etc.
-    allow_headers=["*"],            # allow all headers
+    allow_methods=["*"],            
+    allow_headers=["*"],            
 )
 
 @app.get("/")
