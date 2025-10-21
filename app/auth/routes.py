@@ -6,7 +6,7 @@ from app.agents.state import AssistantState
 from app.agents.graph_langgraph import run_travel_graph
 from app.agents.base import make_groq_llm
 from app.ingestion.rag import run_llm_chat
-import json
+import requests
 from fastapi.encoders import jsonable_encoder
 
 router = APIRouter(prefix="/auth", tags=["auth"])
@@ -119,3 +119,23 @@ async def generate_itinerary(request_data: schemas.Query):
         "user_intent": parsed,
         "result": result,
     }
+
+
+
+N8N_WEBHOOK_URL = "https://sinbikila.app.n8n.cloud/webhook/send-itinerary-email"
+
+@router.post("/send-itinerary")
+async def send_itinerary_to_email(data: dict):
+    """
+    Expects:
+    {
+        "email": "user@example.com",
+        "itinerary": "Day 1: ..."
+    }
+    """
+    try:
+        response = requests.post(N8N_WEBHOOK_URL, json=data)
+        response.raise_for_status()
+        return {"message": "Itinerary sent successfully!"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
