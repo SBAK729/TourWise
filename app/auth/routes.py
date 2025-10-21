@@ -5,6 +5,7 @@ from app.auth import models, schemas, utils
 from app.agents.state import AssistantState
 from app.agents.graph_langgraph import run_travel_graph
 from app.agents.base import make_groq_llm
+from app.ingestion.rag import run_llm_chat
 import json
 from fastapi.encoders import jsonable_encoder
 
@@ -50,14 +51,18 @@ async def generate_itinerary(request_data: schemas.Query):
     print("User:", user_id, "Query:", user_input)
 
     extractor_prompt = f"""
-    You are an intent extraction model. Analyze the user's travel request and return structured JSON.
-    Example output:
+    You are an intent extraction model. Analyze the user's message and classify whether they want to:
+    - have a travel-related conversation (e.g., ask questions, seek advice, or general chat), or
+    - plan a trip (e.g., generate an itinerary or request travel details).
+
+    Return structured JSON with this format:
     {{
-      "destination": "Paris",
-      "duration_days": 5,
-      "budget_usd": 1500,
-      "travel_dates": {{"start": "2025-04-10", "end": "2025-04-15"}},
-      "preferences": {{"interests": ["museums", "food", "local culture"]}}
+      "intent_type": "plan_trip" | "conversation",
+      "destination": "string or null",
+      "duration_days": int or null,
+      "budget_usd": int or null,
+      "travel_dates": {{"start": "YYYY-MM-DD or null", "end": "YYYY-MM-DD or null"}},
+      "preferences": {{"interests": ["string", ...] or []}}
     }}
     User query: "{user_input}"
     Respond with JSON only.
@@ -77,6 +82,9 @@ async def generate_itinerary(request_data: schemas.Query):
     except json.JSONDecodeError as e:
         raise HTTPException(status_code=500, detail=f"JSON parsing error: {e.msg}, raw: {raw_output}")
 
+    intent_type = parsed.get("intent_type", "conversation")
+
+    # Build base state
     state: AssistantState = {
         "user_id": user_id,
         "query": user_input,
@@ -87,24 +95,27 @@ async def generate_itinerary(request_data: schemas.Query):
         "logs": [{"step": "intent_extraction", "parsed": parsed}],
     }
 
+    # === Branch logic ===
+    if intent_type == "plan_trip":
+        # 🧭 Trip planning agent
+        itinerary_result = run_travel_graph(state)
 
-    itinerary_result = run_travel_graph(state)
-
-    from fastapi.encoders import jsonable_encoder
-    safe_result = jsonable_encoder(itinerary_result)
-    result = {
-        "generated_content":safe_result["generated_content"]["revised_itinerary"],
-        "language_annotations":safe_result["generated_content"]["language_annotations"],
-        "savings_options":safe_result["generated_content"]["savings_options"],
-        "estimated_total_cost_usd":safe_result["generated_content"]["estimated_total_cost_usd"],
-        "breakdown":safe_result["generated_content"]["breakdown"],
-    }
-
-    # print(safe_result)
+        from fastapi.encoders import jsonable_encoder
+        safe_result = jsonable_encoder(itinerary_result)
+        result = {
+            "generated_content": safe_result["generated_content"]["revised_itinerary"],
+            "language_annotations": safe_result["generated_content"]["language_annotations"],
+            "savings_options": safe_result["generated_content"]["savings_options"],
+            "estimated_total_cost_usd": safe_result["generated_content"]["estimated_total_cost_usd"],
+            "breakdown": safe_result["generated_content"]["breakdown"],
+        }
+    else:
+        # 💬 Conversational (RAG or LLM chat)
+        result = run_llm_chat(user_query=user_input, user_id=user_id)
 
     return {
         "user_id": user_id,
         "query": user_input,
-        "user_intent":parsed,
-        "result":result,
+        "user_intent": parsed,
+        "result": result,
     }
